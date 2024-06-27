@@ -20,6 +20,8 @@
         <cucumber-java-version>7.16.0</cucumber-java-version>
         <cucumber-testng-version>7.16.0</cucumber-testng-version>
         <allure-cucumber7-jvm-version>2.27.0</allure-cucumber7-jvm-version>
+        <poi-version>5.2.5</poi-version>
+        <poi-ooxml-version>5.2.5</poi-ooxml-version>
         <aspectj.version>1.9.20.1</aspectj.version>
 
     </properties>
@@ -72,6 +74,18 @@
             <groupId>io.qameta.allure</groupId>
             <artifactId>allure-cucumber7-jvm</artifactId>
             <version>${allure-cucumber7-jvm-version}</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.apache.poi/poi -->
+        <dependency>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi</artifactId>
+            <version>${poi-version}</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml -->
+        <dependency>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi-ooxml</artifactId>
+            <version>${poi-ooxml-version}</version>
         </dependency>
     </dependencies>
     <build>
